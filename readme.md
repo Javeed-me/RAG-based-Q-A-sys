@@ -2,6 +2,10 @@ Walkthrough - AI Document QA System
 
 I have successfully built the AI Document Question Answering System using React, FastAPI, LangChain, and Ollama.
 
+Architecture
+
+check the architecture.png for better view.
+
 Project Overview
 
 The system allows users to upload PDF documents, which are then processed, indexed into a vector database (ChromaDB), and made available for conversational QA using a local LLM (Ollama).
@@ -55,6 +59,7 @@ Verification Results
 NOTE
 
 The application is configured to connect to Ollama at http://localhost:11434. Ensure Ollama is accessible.
+
 
 
 
